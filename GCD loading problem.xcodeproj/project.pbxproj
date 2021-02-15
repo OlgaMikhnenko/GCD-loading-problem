@@ -14,6 +14,7 @@
 		A863FEF325DAF57C00C74AE3 /* GCD_loading_problem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A863FEF125DAF57C00C74AE3 /* GCD_loading_problem.xcdatamodeld */; };
 		A863FEF525DAF58300C74AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A863FEF425DAF58300C74AE3 /* Assets.xcassets */; };
 		A863FEF825DAF58300C74AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A863FEF625DAF58300C74AE3 /* LaunchScreen.storyboard */; };
+		A863FF0125DAF72A00C74AE3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A863FF0025DAF72A00C74AE3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A863FEF425DAF58300C74AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A863FEF725DAF58300C74AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A863FEF925DAF58300C74AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A863FF0025DAF72A00C74AE3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				A863FEEA25DAF57C00C74AE3 /* SceneDelegate.swift */,
 				A863FEEC25DAF57C00C74AE3 /* ViewController.swift */,
 				A863FEEE25DAF57C00C74AE3 /* Main.storyboard */,
+				A863FF0025DAF72A00C74AE3 /* SecondViewController.swift */,
 				A863FEF425DAF58300C74AE3 /* Assets.xcassets */,
 				A863FEF625DAF58300C74AE3 /* LaunchScreen.storyboard */,
 				A863FEF925DAF58300C74AE3 /* Info.plist */,
@@ -143,6 +146,7 @@
 				A863FEED25DAF57C00C74AE3 /* ViewController.swift in Sources */,
 				A863FEE925DAF57C00C74AE3 /* AppDelegate.swift in Sources */,
 				A863FEF325DAF57C00C74AE3 /* GCD_loading_problem.xcdatamodeld in Sources */,
+				A863FF0125DAF72A00C74AE3 /* SecondViewController.swift in Sources */,
 				A863FEEB25DAF57C00C74AE3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
