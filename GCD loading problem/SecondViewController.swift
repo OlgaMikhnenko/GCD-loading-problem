@@ -29,10 +29,16 @@ class SecondViewController: UIViewController {
         imageURL = URL (string: "https://www.imgonline.com.ua/examples/bee-on-daisy.jpg")
         activityIndicator.isHidden = false
         activityIndicator.startAnimating()
-        guard let url = imageURL,
-              let imageData = try? Data(contentsOf: url)
-        else { return }
-        self.image = UIImage (data: imageData)
+        
+        let queue = DispatchQueue.global(qos: .utility)
+        queue.async {
+            guard let url = self.imageURL,
+                  let imageData = try? Data(contentsOf: url)
+            else { return }
+            DispatchQueue.main.sync {
+                self.image = UIImage (data: imageData)
+            }
+        }
     }
 
     override func viewDidLoad() {
